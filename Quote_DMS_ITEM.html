@@ -5,7 +5,7 @@
 <!--[if gte mso 9]><xml>
 <mso:CustomDocumentProperties>
 <mso:TemplateHidden msdt:dt="string">0</mso:TemplateHidden>
-<mso:ManagedPropertyMapping msdt:dt="string">ListID','ListItemID','ContentTypeId','Link URL':'Path','Title':'Title','RefinableString29':'QuoteNumber','RefinableString30':'Company','RefinableString31':'ProjectSite','RefinableString32':'User','RefinableString33':'Quote Price','RefinableString34':'Probability','RefinableString35':'Rep','RefinableString36':'RM','RefinableString37':'SONbr';</mso:ManagedPropertyMapping>
+<mso:ManagedPropertyMapping msdt:dt="string">ListID','ListItemID','ContentTypeId','Link URL':'Path','Title':'Title','RefinableString29':'QuoteNumber','RefinableString30':'Company','RefinableString31':'ProjectSite','RefinableString32':'User','RefinableString33':'QuotePrice','RefinableString34':'Probability','RefinableString35':'Rep','RefinableString36':'RM','RefinableString37':'SONbr';</mso:ManagedPropertyMapping>
 <mso:MasterPageDescription msdt:dt="string">Has Customer Name now</mso:MasterPageDescription>
 <mso:ContentTypeId msdt:dt="string">0x0101002039C03B61C64EC4A04F5361F385106603</mso:ContentTypeId>
 <mso:TargetControlType msdt:dt="string">;#SearchResults;#</mso:TargetControlType>
@@ -84,13 +84,13 @@ _#-->
                Company
             </th>
             <th class="ms-vh2">
-                ProjectSite
+                Project Site
             </th>
             <th class="ms-vh2">
 				User
             </th>
 			<th class="ms-vh2">
-			QuotePrice
+			Quote Price
 			</th>
 			<th class="ms-vh2">
 			Probability
@@ -129,9 +129,9 @@ _#-->
            <td class="ms-cellstyle ms-vb2"> 
                 _#= titleMarkup =#_
             </td>
-			<td class="ms-cellstyle ms-vb2">
-                _#= QuoteNumber =#_
-            </td>
+            <td class="ms-cellstyle ms-vb2">
+                <div class="QuoteNumber"><a href='https://ametekinc.sharepoint.com/sites/OBNavDMSTest/Quotes/Pages/QuoteNumber.aspx?k=' target ='_blank'>_#= QuoteNumber =#_</a></div>
+               </td>
 			<td class="ms-cellstyle ms-vb2">
                 _#= Company =#_
             </td>
